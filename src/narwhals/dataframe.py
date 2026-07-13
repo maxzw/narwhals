@@ -564,7 +564,7 @@ class DataFrame(BaseFrame[DataFrameT]):
         """Instantiate DataFrame from dictionary.
 
         Indexes (if present, for pandas-like backends) are aligned following
-        the [left-hand-rule](../concepts/pandas_index.md/).
+        the [left-hand-rule](../docs/concepts/pandas_index.md/).
 
         Notes:
             For pandas-like dataframes, conversion to schema is applied after dataframe
